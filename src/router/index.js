@@ -3,7 +3,8 @@ import Home from "../views/Home.vue";
 import CardDemo from "../views/CardDemo.vue";
 import CardDemo2 from "../views/CardDemo2.vue";
 import box from "../views/box.vue";
-
+import button from "../views/button.vue";
+import groupHover from "../views/groupHover.vue";
 
 const routes = [
     {
@@ -26,6 +27,16 @@ const routes = [
         path: "/box",
         name: "box",
         component: box,
+    },
+    {
+        path: "/button",
+        name: "button",
+        component: button,
+    },
+    {
+        path: "/groupHover",
+        name: "groupHover",
+        component: groupHover,
     },
 ];
 const router = createRouter({
