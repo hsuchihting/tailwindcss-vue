@@ -5,6 +5,8 @@ import CardDemo2 from "../views/CardDemo2.vue";
 import box from "../views/box.vue";
 import button from "../views/button.vue";
 import groupHover from "../views/groupHover.vue";
+import customVariants from "../views/customVariants.vue";
+
 
 const routes = [
     {
@@ -37,6 +39,11 @@ const routes = [
         path: "/groupHover",
         name: "groupHover",
         component: groupHover,
+    },
+    {
+        path: "/customVariants",
+        name: "customVariants",
+        component: customVariants,
     },
 ];
 const router = createRouter({
