@@ -1,10 +1,12 @@
 <template>
-    <div class="ml-5 sm:w-96">
-        <article class=" prose lg:prose-xl">
+    <div class="ml-5 sm:w-96 prose lg:prose-xl">
+        <h2>typography</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus officia, similique dolor facere excepturi
+            veniam assumenda libero reprehenderit omnis quae a nam fuga inventore minima blanditiis animi laboriosam
+            accusantium id!
+        </p>
 
-        <h2 >typography</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus officia, similique dolor facere excepturi veniam assumenda libero reprehenderit omnis quae a nam fuga inventore minima blanditiis animi laboriosam accusantium id!</p>
-        </article>
         <h2 class="mt-2">Forms</h2>
         <label class="block mb-3">
             <input type="text" class="w-full rounded-md" placeholder="請輸入姓名" />
