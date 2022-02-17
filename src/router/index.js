@@ -6,6 +6,8 @@ import box from "../views/box.vue";
 import button from "../views/button.vue";
 import groupHover from "../views/groupHover.vue";
 import customVariants from "../views/customVariants.vue";
+import plugins from "../views/plugins.vue";
+
 
 
 const routes = [
@@ -44,6 +46,11 @@ const routes = [
         path: "/customVariants",
         name: "customVariants",
         component: customVariants,
+    },
+    {
+        path: "/plugins",
+        name: "plugins",
+        component: plugins,
     },
 ];
 const router = createRouter({
