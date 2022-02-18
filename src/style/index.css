@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
+/* @layer utilities {
     /*加在這邊*/
-    .btn {
+    /* .btn {
         @apply px-4 py-2 rounded border-transparent text-white;
     }
     .btn-red {
@@ -15,5 +15,5 @@
     }
     .btn-focus {
         @apply border-red-400 border-2;
-    }
-}
+    } */
+/* } */
