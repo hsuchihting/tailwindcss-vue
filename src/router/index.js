@@ -7,6 +7,8 @@ import button from "../views/button.vue";
 import groupHover from "../views/groupHover.vue";
 import customVariants from "../views/customVariants.vue";
 import plugins from "../views/plugins.vue";
+import addBase from "../views/addBase.vue";
+
 
 
 
@@ -51,6 +53,11 @@ const routes = [
         path: "/plugins",
         name: "plugins",
         component: plugins,
+    },
+    {
+        path: "/addBase",
+        name: "addBase",
+        component: addBase,
     },
 ];
 const router = createRouter({

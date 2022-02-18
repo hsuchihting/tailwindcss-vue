@@ -28,6 +28,9 @@
         <a class="px-4 py-4 cursor-pointer hover:bg-gray-600 duration-200">
             <router-link to="/plugins">plugins 3.10</router-link>
         </a>
+         <a class="px-4 py-4 cursor-pointer hover:bg-gray-600 duration-200">
+            <router-link to="/addBase">addBase 3.11.1</router-link>
+        </a>
     </div>
     <div class="px-8 py-4">
         <router-view></router-view>
