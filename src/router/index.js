@@ -8,9 +8,7 @@ import groupHover from "../views/groupHover.vue";
 import customVariants from "../views/customVariants.vue";
 import plugins from "../views/plugins.vue";
 import addBase from "../views/addBase.vue";
-
-
-
+import jit from "../views/jit.vue";
 
 const routes = [
     {
@@ -58,6 +56,11 @@ const routes = [
         path: "/addBase",
         name: "addBase",
         component: addBase,
+    },
+    {
+        path: "/jit",
+        name: "jit",
+        component: jit,
     },
 ];
 const router = createRouter({
